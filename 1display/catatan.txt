@@ -1,0 +1,3 @@
+tag pada HTML digunakan untuk memberikan 'maksud'/'arti' pada sebuah konten.
+
+tag <div> dan <span> tidak memiliki 'arti' apapun, keduanya digunakan untuk mengelompokkaan tag-tag HTML dan memberikan informasi terhadap tag-tag tersebut.
