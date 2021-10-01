@@ -1,0 +1,63 @@
+/* Overlapping Margin 
+    margin vertical tidak saling menambahkan, hanya mengambil nilai terbesar
+    margin horizontal akan menjumlahkan nilai marginnya dari kedua elemen. 
+*/
+
+/* Negatif Margin
+    akan membuat elemen bergerak berlawanan arah dan menimpa elemen sebelumnya, dan elemen setelahnya akan ikut bergerak.
+ */
+
+/* Nilai Margin Khusus yaitu AUTO
+    Nilai ini khusus untuk margin kiri dan kanan, dan akan menekan elemen ke bagian tengah parentnya.  
+*/
+.satu {
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    /* margin-left: 30px; */
+    /* margin-bottom: 100px; */
+}
+.dua {
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+
+    /* margin negatif */
+    /* margin-top: -150px; */
+}
+.tiga {
+    background-color: pink;
+    width: 50px;
+    height: 50px;
+
+    /* nilai margin khusus AUTO */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Shorthand */
+.empat {
+    background-color: violet;
+    width: 150px;
+    height: 150px;
+
+    /* satu nilai
+        margin: 00px; -> nilai yang sama keempat sisinya
+    */
+    margin: 30px;
+
+    /* dua nilai
+        margin: [top-bottom] [left-right];
+    */
+    margin: 50px auto;
+
+    /* tiga nilai
+        margin: [top] [left-right] [bottom];
+    */
+    margin: 100px auto 20px;
+
+    /* empat nilai
+        margin: [top] [right] [bottom] [left];
+    */
+    margin: 10px 20px 30px 40px;
+}

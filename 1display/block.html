@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Layouting Display Block</title>
+    <style>
+        h1, h2, p {
+            background-color: pink;
+        }
+        .parent {
+            width: 30%;
+        }
+        .parent h3, 
+        .parent p {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <!-- lebar dan tingginya mengikuti ukuran browser atau parentnya -->
+    <h1>Hello World</h1>
+    <h2>Testing display BLOCK</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eligendi expedita laboriosam, fugit, asperiores quaerat quisquam nam, saepe quos impedit quas? Distinctio voluptatum excepturi in id adipisci, tempore laboriosam exercitationem?</p>
+
+    <div class="parent">
+        <h3>Ukuran parentnya di Ubah</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aliquam ipsam incidunt expedita explicabo velit consequatur, suscipit iste nostrum blanditiis rem saepe, hic, voluptate enim ea? Ratione sapiente adipisci obcaecati. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit ipsa assumenda suscipit ipsam ab laborum cumque quisquam asperiores, quia labore magnam maxime officia libero eos voluptatum error animi molestias. Nobis.</p>
+    </div>
+</body>
+</html>
