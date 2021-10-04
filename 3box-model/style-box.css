@@ -1,0 +1,22 @@
+/* BOX SIZING */
+/* Supaya ketika ingin menambah padding atau border, ukuran kotaknya tidak berubah.
+*/
+
+div {
+    width: 600px;
+    margin: 20px auto;
+    /* membuat ukuran boxnya tetap */
+    box-sizing: border-box;
+}
+
+.satu {
+    background-color: yellow;
+    padding: 10px;
+    border: 15px solid black;
+}
+
+.dua {
+    background-color: lightgreen;
+    padding: 30px;
+    border: 10px dashed red;
+}
